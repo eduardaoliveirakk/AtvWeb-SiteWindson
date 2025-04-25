@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
+body{
+    background-color: beige;
+    font-family: 'Cal Sans', sans-serif;
+    font-style: normal;
+    background-image: url('./imagens/windson.jpg');
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.question{
+    font-size: 24px;
+}
+
+.asnwer{
+    color: red;
+    font-size: 72px;
+}
+
+.other-question{
+    font-size: 15px;
+}
+
+p {
+    align-self: center;
+}
+
+.other-question a{
+    
+    transition: 0.5s;
+}
+
+.other-question a:hover {
+    color: grey;
+}
